@@ -1,0 +1,55 @@
+.navbar {
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.container_cover .text{
+max-width: 400px;
+}
+.cover{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container_cover .text h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.container_cover .text p{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.container_cover .svg img{
+    width: 600px;
+}
+.container_cover .text input{
+    padding: 18px 40px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.info{
+    font-size: 20px;
+    margin-top: 40px;
+    max-width: 450px;
+    position: relative;
+    left: 40%;
+    top: 40%;
+    
+}
